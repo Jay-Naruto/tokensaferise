@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+.component{
+position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+.img{
+    position: relative;
+    width: 100%;
+    opacity: 0.6;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;  
+    position: relative;
+    /* top: 20%; */
+    text-align: center;
+    width: 80%;
+    background-color: #0a454d;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px 0;
+    margin-top: 100px;
+    
+font-family: 'Exo', sans-serif;
+
+}
+.title{
+    font-weight: bolder;
+    font-size: 94px;
+    text-align: center;
+     width: 80%;
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button button{
+/* 1 */
+
+background: #02a9a7;
+border: 1px solid #FFFFFF;
+box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.85);
+border-radius: 78px;
+padding: 10px 40px;
+font-weight: 700;
+font-size: 17.7899px;
+line-height: 150.11%;
+/* identical to box height, or 27px */
+
+margin:30px 20px;
+color: #fff;
+
+}
+
+@media screen and (max-width:1400px) {
+    .component{
+        position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .img{
+            position: relative;
+            width: 100%;
+    opacity: 0.6;
+
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;  
+           
+        font-family: 'Exo', sans-serif;
+        
+        }
+        .title{
+            font-weight: 900;
+            font-size: 50px;
+            text-align: center;
+             width: 80%;
+            color: #FFFFFF;
+            
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+  
+        
+}
+
+@media screen and (max-width:1000px) {
+    .component{
+        position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .img{
+            position: relative;
+            width: 100%;
+    opacity: 0.6;
+
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;  
+            position: absolute;
+            top: 20%;
+        font-family: 'Exo', sans-serif;
+        
+        }
+        .title{
+            font-weight: 900;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+             width: 80%;
+            color: #FFFFFF;
+            
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .button button{
+        /* 1 */
+        
+        background: linear-gradient(201.09deg, #2DF2FF 20.19%, #DDFF95 78.58%);
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.85);
+        border-radius: 78px;
+        padding: 1px 10px;
+        font-weight: 700;
+        font-size: 10.7899px;
+        line-height: 20px;
+        /* identical to box height, or 27px */
+        
+        margin:10px 20px;
+        color: #0E1E27;
+        
+        }
+        
+}

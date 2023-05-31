@@ -1,0 +1,81 @@
+/* App.css */
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.App {
+
+}
+
+.container {
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------- */
+/* src/components/ImageSlider.css */
+/* 
+.slide {
+  transform: scale(0.4);
+  transition: transform 300ms;
+  position: relative;
+  opacity: 0.5;
+  z-index: 10;
+  width: 100%;
+} */
+.activeSlide{
+  position: relative;
+  z-index: 1000;
+  ;
+  transform: scale(0.7);
+
+
+}
+.activeSlide .slideWrapper img{
+  /* width: 1000px; */
+  border-radius: 40px;
+  border: 1px solid white;
+
+}
+.slide .slideWrapper img{
+  /* width: 900px; */
+  border-radius: 40px;
+  border: 1px solid white;
+  margin: 50px ;
+}
+
+.slideWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prevArrow {
+  position: absolute;
+  top: 40%;
+  left: 60px;
+  z-index: 100;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.nextArrow {
+  position: absolute;
+  top: 40%;
+  right: 60px;
+  z-index: 100;
+  cursor: pointer;
+  font-size: 2rem;
+}

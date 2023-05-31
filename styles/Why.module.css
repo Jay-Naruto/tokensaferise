@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+.buyerRow{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+}
+.arrow{
+    width: 150px;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    animation-name: increase-height;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.label{
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    }
+.sellerRow
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.whyBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.whyBodyComponent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.buyerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #0A0C17;
+    font-family: 'Exo', sans-serif;
+
+box-shadow: 16.016px 16.016px 32.0319px #05060A, -16.016px -16.016px 32.0319px #272C48;
+border-radius: 29.3626px;
+transform: rotate(-13.54deg);
+border: 2px solid rgba(45, 242, 255, 1);
+padding: 20px;
+text-align: center;
+/* margin-top: 20px; */
+position: relative;
+left: 100px;
+width: 450px;
+}
+.sellerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #0A0C17;
+box-shadow: 16.016px 16.016px 32.0319px #05060A, -16.016px -16.016px 32.0319px #272C48;
+border-radius: 29.3626px;
+transform: rotate(13.54deg);
+font-family: 'Exo', sans-serif;
+position: relative;
+right: 100px;
+border: 2px solid rgba(45, 242, 255, 1);
+padding: 20px;
+text-align: center;
+margin-top: 0px;
+width:450px;
+}
+.logoRow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.logoRow img{
+    width: 80px;
+}
+.logoRow div{
+    font-weight: 600;
+font-size: 30.7093px;
+line-height: 57px;
+margin-left: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+/* transform: rotate(-13.54deg); */
+}
+.buyerText{
+    font-weight: 700;
+font-size: 24px;
+line-height: 130.4%;
+margin: 20px 0;
+/* or 37px */
+text-align: left;
+
+color: #FFFFFF;
+}
+.arrow{
+  
+}
+@keyframes increase-height {
+    0% {
+        transform: scale(0.5);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(0.5);
+      }
+  }
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+@media screen and (max-width:1200px) {
+    .buyerRow{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    
+    }
+    .arrow{
+        width: 80px;
+        position: relative;
+        top: 100px;
+        right: 0px;
+        transform: rotate(-50deg);
+        display: none;
+    }
+    .label{
+        font-family: 'Exo', sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        /* identical to box height */
+        
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+        margin-bottom: 20px;
+        }
+    .sellerRow
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    .whyBody{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .whyBodyComponent
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        flex-direction: column;
+    }
+    .buyerCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #0A0C17;
+        font-family: 'Exo', sans-serif;
+    
+    box-shadow: 16.016px 16.016px 32.0319px #05060A, -16.016px -16.016px 32.0319px #272C48;
+    border-radius: 29.3626px;
+    transform: rotate(-13.54deg);
+    border: 1px solid rgba(45, 242, 255, 1);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    /* margin-top: 20px; */
+    width: 350px;
+    }
+    .sellerCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #0A0C17;
+    box-shadow: 16.016px 16.016px 32.0319px #05060A, -16.016px -16.016px 32.0319px #272C48;
+    border-radius: 29.3626px;
+    transform: rotate(13.54deg);
+    font-family: 'Exo', sans-serif;
+    position: relative;
+    right: 0;
+    border: 1px solid rgba(45, 242, 255, 1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    width:350px;
+    }
+    .logoRow{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    .logoRow img{
+        width: 50px;
+    }
+    .logoRow div{
+        font-weight: 600;
+    font-size: 30.7093px;
+    line-height: 57px;
+    margin-left: 20px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    /* transform: rotate(-13.54deg); */
+    }
+    .buyerText{
+        font-weight: 700;
+    font-size: 12px;
+    line-height: 130.4%;
+    margin: 20px 0;
+    /* or 37px */
+    text-align: left;
+    
+    color: #FFFFFF;
+    }
+}

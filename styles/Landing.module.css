@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+.body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+    margin-top: 60px;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row !important;
+}
+.containerText
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    gap: 20px;
+
+
+}
+.containerTextTitle{
+    font-family: 'Exo';
+font-style: normal;
+font-weight: 700;
+font-size:90px;
+color: #FFFFFF;
+font-family: 'Exo', sans-serif;
+position: relative;
+top: 10px;
+}
+.containerTextDescp
+{
+    font-family: 'Exo';
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Exo', sans-serif;
+    position: relative;
+    text-align: justify;
+}
+.containerTextLshape{
+    position: absolute;
+    left: -30px;
+    width: 20px;
+}
+.containerTextDescp span
+{
+    font-family: 'Exo';
+    font-style: normal;
+    font-size: 20px;
+    color: #02b59c;
+    font-family: 'Exo', sans-serif;
+}
+.containerBtnRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.containerTextBtn{
+    background: linear-gradient(90deg, #02AAB0 0%, #00CDAC 100%);
+/* border: 3px solid #FFFFFF; */
+box-shadow: inset 6px 6px 11px rgba(0, 0, 0, 0.46);
+backdrop-filter: blur(5px);
+/* Note: backdrop-filter has minimal browser support */
+font-family: 'Exo', sans-serif;
+cursor: pointer;
+border-radius: 12px;
+padding: 14px 40px;
+color: white;
+}
+
+.containerImage{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.containerImageTest
+{
+ width: 100%;
+ position: relative;
+ z-index: 100;
+ cursor: crosshair;
+ top: -30px;
+ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.containerImageGradient
+{
+    position: fixed;
+ z-index: -100 !important ;
+ left: 50%;
+ top: -70%;
+ transform: translateX(-50%);
+ width: 80vw;
+ right: 0;
+ display: none;
+
+}
+
+/* .containerImageTest {
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+    -webkit-animation: rotate 10s linear infinite;
+    -moz-animation: rotate 10s linear infinite;
+    animation: rotate 10s linear infinite;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100 !important;
+  }
+.containerImage {
+    -webkit-perspective: 50em;
+    -moz-perspective: 50em;
+    perspective: 50em;
+  }
+   */
+  @-webkit-keyframes rotate {
+    100% {-webkit-transform: rotatey(360deg);}
+  }
+  
+  @-moz-keyframes rotate {
+    100% {-moz-transform: rotatey(360deg);}
+  }
+  
+  @keyframes rotate {
+    100% {transform: rotatey(360deg);}
+  }
+
+@media screen and (max-width:1000px) {
+    .body{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column !important;
+        margin-top: 50px;
+    }
+    
+    .container{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column !important;
+    }
+    .containerText
+    {
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap: wrap;
+        flex-direction: column; 
+        gap: 20px;
+    
+    
+    }
+    .containerTextTitle{
+        font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Exo', sans-serif;
+    text-align: left;
+    }
+    .containerTextDescp
+    {
+        font-family: 'Exo';
+        font-style: normal;
+        font-size: 10px;
+        color: #FFFFFF;
+        font-family: 'Exo', sans-serif;
+    }
+    .containerTextDescp span
+    {
+        font-family: 'Exo';
+        font-style: normal;
+        font-size: 10px;
+        color: #02b59c;
+        font-family: 'Exo', sans-serif;
+    }
+    .containerTextBtn{
+        background: linear-gradient(90deg, #02AAB0 0%, #00CDAC 100%);
+    border: 3px solid #FFFFFF;
+    box-shadow: inset 6px 6px 11px rgba(0, 0, 0, 0.46);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    font-family: 'Exo', sans-serif;
+    
+    border-radius: 19px;
+    padding: 10px 40px;
+    color: white;
+    }
+    .containerImage{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+    }
+    .containerImageTest
+    {
+     width: 300px;
+     position: relative;
+     z-index: 100;
+ cursor: crosshair;
+
+    }
+    .containerImageGradient
+    {
+        position: fixed;
+     z-index: -10 ;
+     left: 50%;
+     top: -70%;
+     width: 100vw;
+     transform: translateX(-50%);
+     opacity: 0.5;
+     
+    
+    }
+    
+    .containerImageTest {
+        -webkit-user-select: none; 
+        -moz-user-select: none;
+        -ms-user-select: none;
+        cursor: default;
+        -webkit-animation: rotate 10s linear infinite;
+        -moz-animation: rotate 10s linear infinite;
+        animation: rotate 10s linear infinite;
+        margin: 0 auto;
+        position: relative;
+      }
+    .containerImage {
+        -webkit-perspective: 50em;
+        -moz-perspective: 50em;
+        perspective: 50em;
+      }
+}

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+.component{
+    background-color: #0e2128;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 50px; */
+    padding: 30px 10px;
+    position: relative;
+    bottom: 30px;
+}
+.logo{
+    width: 300px;
+}
+.component1{
+    background-color: #0e2128;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+font-family: 'Exo', sans-serif;
+
+}
+.component2{
+    background-color: #0e2128;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+font-family: 'Exo', sans-serif;
+
+}
+.component3{
+    background-color: #0e2128;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+font-family: 'Exo', sans-serif;
+
+    width: 100%;
+}
+.button button{
+    /* 1 */
+    
+    background: linear-gradient(201.09deg, #2DF2FF 20.19%, #DDFF95 78.58%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.85);
+    border-radius: 78px;
+    padding: 10px 40px;
+    font-weight: 700;
+    font-size: 17.7899px;
+    line-height: 150.11%;
+    /* identical to box height, or 27px */
+    
+    margin:10px 0;
+    color: #0E1E27;
+    
+    }
+    .component3 img{
+        margin: 5px;
+    }
+    .bottom{
+        font-weight: 400;
+font-size: 14px;
+line-height: 80%;
+/* or 11px */
+
+
+color: #FFFFFF;
+text-align: center;
+background-color: #173639;
+padding: 20px 0;
+    }
+
+    @media screen and (max-width:1200px) {
+        .component{
+            background-color: #0e2128;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            /* margin-top: 50px; */
+            padding: 30px 10px;
+        }
+        .logo{
+            width: 300px;
+        }
+        .component1{
+            background-color: #0e2128;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+        font-family: 'Exo', sans-serif;
+        
+        }
+        .component2{
+            background-color: #0e2128;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            color: white;
+        font-family: 'Exo', sans-serif;
+        
+        }
+        .component3{
+            background-color: #0e2128;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        font-family: 'Exo', sans-serif;
+        position: relative;
+        top: 0px;
+            width: 100%;
+        }
+        .button button{
+            /* 1 */
+            
+            background: linear-gradient(201.09deg, #2DF2FF 20.19%, #DDFF95 78.58%);
+            border: 1px solid #FFFFFF;
+            box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.85);
+            border-radius: 78px;
+            padding: 10px 40px;
+            font-weight: 700;
+            font-size: 17.7899px;
+            line-height: 150.11%;
+            /* identical to box height, or 27px */
+            
+            margin:0px 0 20px 0;
+            color: #0E1E27;
+            
+            }
+            .component3 img{
+                margin: 5px;
+                margin-top: 20px;
+            }
+            .bottom{
+                font-weight: 400;
+        font-size: 14px;
+        line-height: 80%;
+        /* or 11px */
+        
+        
+        color: #FFFFFF;
+        text-align: center;
+        background-color: #173639;
+        padding: 20px 0;
+            } 
+    }

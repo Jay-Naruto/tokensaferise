@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+.stepsBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    margin-top: 100px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: justify;
+  }
+  
+  .imageContainer {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .pipes {
+    width: 70%;
+    position: relative;
+ 
+  }
+  
+  
+
+.positions{
+    position: relative;
+    top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+.cardsBody{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    flex-direction: row; 
+    flex-wrap: wrap;
+
+}
+.steps1{
+    background: #0A0C17;
+box-shadow: 18px 18px 36px #05060A, -18px -18px 36px #272C48;
+border-radius: 20px;
+border: 2px solid rgba(45, 242, 255, 1);
+padding: 20px;
+text-align: center;
+margin-top: 20px;
+width: 400px;
+height: 450px;
+font-family: 'Exo', sans-serif;
+
+/* animation-name: zoom; */
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+}
+.steps2{
+    background: #0A0C17;
+box-shadow: 18px 18px 36px #05060A, -18px -18px 36px #272C48;
+border-radius: 33px;
+border: 2px solid rgba(45, 242, 255, 1);
+padding: 20px;
+text-align: center;
+margin-bottom: 20px;
+width: 400px;
+height: 450px;
+position: relative;
+bottom: 20px;
+font-family: 'Exo', sans-serif;
+/* animation-name: zoom; */
+animation-duration: 4s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+height: max-content;
+
+}
+.steps3{
+    background: #0A0C17;
+box-shadow: 18px 18px 36px #05060A, -18px -18px 36px #272C48;
+border-radius: 33px;
+border: 2px solid rgba(45, 242, 255, 1);
+padding: 20px;
+text-align: center;
+margin-top: 20px;
+width: 350px;
+height: max-content;
+font-family: 'Exo', sans-serif;
+position: relative;
+left: 40px;
+/* animation-name: zoom; */
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+height: max-content;
+
+}
+.steps4{
+    background: #0A0C17;
+box-shadow: 18px 18px 36px #05060A, -18px -18px 36px #272C48;
+border-radius: 33px;
+border: 2px solid rgba(45, 242, 255, 1);
+padding: 20px;
+text-align: center;
+margin-top: 40px;
+width: 350px;
+height: max-content;
+font-family: 'Exo', sans-serif;
+position: relative;
+right: 40px;
+/* animation-name: zoom; */
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+height: max-content;
+
+}
+@keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.label{
+font-family: 'Exo', sans-serif;
+font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.number{
+    font-weight: 700;
+font-size: 50.847px;
+text-align: left;
+font-family: 'Exo', sans-serif;
+color: #FFFFFF;
+
+/* opacity: 0.5; */
+background-color: rgba(2, 170, 176, 0.5);
+border-radius: 20px;
+
+padding: 5px 5px;
+margin-bottom: 20px;
+}
+.title{
+    font-size: 30px;
+line-height: 35px;
+/* identical to box height */
+font-family: 'Exo', sans-serif;
+text-align: center;
+margin: 0px 0 10px 0;
+color: #FFFFFF;
+
+}
+.text{
+    font-size: 18px;
+text-align: left;
+font-family: 'Exo', sans-serif;
+color: #FFFFFF;
+
+}
+
+@media screen and (max-width:1200px) {
+    .stepsBody{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        margin-top: 100px;
+    }
+    .pipes{
+        width: 70%;
+        position: relative;
+        display: none;
+    
+    }
+    .positions{
+        position: relative;
+        top: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        flex-direction: column; 
+        flex-wrap: wrap;
+    }
+    .cardsBody{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        position: relative;
+        left: 12px;
+    }
+    .steps1{
+        background: #0A0C17;
+    box-shadow: 18px 18px 36px #05060A, -18px -18px 36px #272C48;
+    border-radius: 33px;
+    border: 1px solid rgba(45, 242, 255, 1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 90%;
+    font-family: 'Exo', sans-serif;
+    
+    }
+    .steps2{
+        background: #0A0C17;
+    box-shadow: 18px 18px 36px #05060A, -18px -18px 36px #272C48;
+    border-radius: 33px;
+    border: 1px solid rgba(45, 242, 255, 1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 90%;
+    position: relative;
+bottom: 0px;
+    font-family: 'Exo', sans-serif;
+    }
+    .steps3{
+        background: #0A0C17;
+    box-shadow: 18px 18px 36px #05060A, -18px -18px 36px #272C48;
+    border-radius: 33px;
+    border: 1px solid rgba(45, 242, 255, 1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 90%;
+    font-family: 'Exo', sans-serif;
+    position: relative;
+left: 0px;
+    }
+    .steps4{
+        background: #0A0C17;
+    box-shadow: 18px 18px 36px #05060A, -18px -18px 36px #272C48;
+    border-radius: 33px;
+    border: 1px solid rgba(45, 242, 255, 1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 90%;
+    font-family: 'Exo', sans-serif;
+    position: relative;
+right: 0px;
+    }
+    .label{
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    }
+    .number{
+        font-weight: 700;
+    font-size: 60.847px;
+    line-height: 94px;
+    text-align: left;
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    
+    opacity: 0.5;
+    }
+    .title{
+        font-size: 26px;
+    line-height: 35px;
+    /* identical to box height */
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    margin: 0px 0 20px 0;
+    color: #FFFFFF;
+    
+    }
+    .text{
+        font-size: 17px !important;
+    line-height: 23px;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    
+    }
+    
+}

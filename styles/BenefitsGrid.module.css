@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+.body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.title{
+    font-family: 'Exo', sans-serif;
+font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-bottom: 70px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column !important;
+}
+.upper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row !important;
+}
+.element1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column !important;
+    width: 30%;
+}
+
+.element1Title{
+    font-style: normal;
+font-weight: 900;
+font-size: 20px;
+text-align: right;
+font-family: 'Exo', sans-serif;
+color: #FFFFFF;
+}
+.element1Descp{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: right;
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    width: 70%;
+
+    margin-top: 20px;
+}
+.element2 img{
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+transition: 1s;
+cursor: pointer;
+}
+.element2 img:hover{
+ 
+    transform: scale(1.1);
+}
+
+.element3{
+    display: flex;
+    width: 30%;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column !important;
+}
+.element3Title{
+    font-style: normal;
+font-weight: 900;
+font-size: 20px;
+text-align: left;
+font-family: 'Exo', sans-serif;
+color: #FFFFFF;
+}
+.element3Descp{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 70%;
+
+
+}
+.imgElements{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row !important;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .body{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .title{
+        font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 64px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column !important;
+    }
+    .upper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+    }
+    .element1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+        width:100%;
+    }
+    
+    .element1Title{
+        font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    }
+    .element1Descp{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        color: #FFFFFF;
+        width: 70%;
+    
+        margin-top: 20px;
+    }
+    .element2 img{
+        width: 90%;
+        height: 200px;
+        margin: 10px;
+    transition: 1s;
+    cursor: pointer;
+    }
+    .element2 img:hover{
+     
+        transform: scale(1.1);
+    }
+    
+    .element3{
+        display: flex;
+        width: 100%;
+    
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+    }
+    .element3Title{
+        font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    }
+    .element3Descp{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        color: #FFFFFF;
+        margin-top: 20px;
+        width: 70%;
+    
+    
+    }
+    .imgElements{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 20px 0;
+
+    }
+    
+    .bottom{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 30px;
+        flex-direction: column !important;
+    }
+}
